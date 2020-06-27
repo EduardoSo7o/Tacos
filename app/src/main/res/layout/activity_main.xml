@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="Autofill">
+
+    <ImageButton
+        android:id="@+id/btn_refrescoMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="280dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/btn_refrescoMinus_String"
+        android:onClick="minus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/minus" />
+
+    <ImageView
+        android:id="@+id/img_refresco"
+        android:layout_width="118dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="272dp"
+        android:contentDescription="@string/img_refresco_String"
+        app:layout_constraintStart_toEndOf="@+id/btn_refrescoMinus"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/refresco" />
+
+    <ImageButton
+        android:id="@+id/btn_refrescoPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="280dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/btn_refrescoPlus_String"
+        android:onClick="plus"
+        app:layout_constraintStart_toEndOf="@+id/et_refresco"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/plus" />
+
+    <ImageView
+        android:id="@+id/img_taco"
+        android:layout_width="118dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/img_taco_String"
+        app:layout_constraintStart_toEndOf="@+id/btn_tacoMinus"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/taco" />
+
+    <ImageButton
+        android:id="@+id/btn_tacoMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="43dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/btn_tacoMinus_String"
+        android:onClick="minus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/minus" />
+
+    <ImageButton
+        android:id="@+id/btn_tacoPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="43dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/btn_tacoPlus_String"
+        android:onClick="plus"
+        app:layout_constraintStart_toEndOf="@+id/et_taco"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/plus" />
+
+    <ImageView
+        android:id="@+id/img_torta"
+        android:layout_width="118dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="149dp"
+        android:contentDescription="@string/img_torta_String"
+        app:layout_constraintStart_toEndOf="@+id/btn_tortaMinus"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/torta" />
+
+    <ImageButton
+        android:id="@+id/btn_tortaMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="160dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/btn_tortaMinus_String"
+        android:onClick="minus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/minus" />
+
+    <ImageButton
+        android:id="@+id/btn_tortaPlus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="160dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/btn_tortaPlus_String"
+        android:onClick="plus"
+        app:layout_constraintStart_toEndOf="@+id/et_torta"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/plus" />
+
+    <EditText
+        android:id="@+id/et_taco"
+        android:layout_width="68dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/et_taco_String"
+        android:inputType="numberDecimal"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/img_taco"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_refresco"
+        android:layout_width="68dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="272dp"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/et_refresco_String"
+        android:inputType="numberDecimal"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/img_refresco"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_torta"
+        android:layout_width="68dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="149dp"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="@string/et_torta_String"
+        android:inputType="numberDecimal"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/img_torta"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_setZero"
+        android:layout_width="60dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="388dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/btn_exchange_String"
+        android:onClick="setZero"
+        android:src="@mipmap/setzero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_count"
+        android:layout_width="84dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="388dp"
+        android:background="#00FFFFFF"
+        android:contentDescription="@string/app_name"
+        android:onClick="count"
+        app:layout_constraintStart_toEndOf="@+id/btn_setZero"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/count" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

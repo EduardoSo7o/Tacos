@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Tacos</string>
+
+    <string name="img_taco_String">Tacos</string>
+    <string name="et_taco_String">0</string>
+    <string name="btn_tacoMinus_String">tacoMinus</string>
+    <string name="btn_tacoPlus_String">tacoPlus</string>
+
+    <string name="img_torta_String">Tortas</string>
+    <string name="et_torta_String">0</string>
+    <string name="btn_tortaMinus_String">tortaMinus</string>
+    <string name="btn_tortaPlus_String">tortaPlus</string>
+
+    <string name="img_refresco_String">Refrescos</string>
+    <string name="et_refresco_String">0</string>
+    <string name="btn_refrescoMinus_String">refrescoMinus</string>
+    <string name="btn_refrescoPlus_String">refrescoPlus</string>
+
+    <string name="tv_total_String">Total : </string>
+    <string name="tv_totalNumber_String">0</string>
+
+    <string name="et_receipt_String">Recibo</string>
+
+    <string name="btn_exchange_String">Cambio</string>
+    <string name="tv_exchange_String">Cambio :</string>
+    <string name="tv_exchangeNumber_String">0</string>
+
+    <string name="btn_return_String">Volver</string>
+    <string name="title_activity_dre">Dre</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="ab_prices_String">Prices</string>
+    <string name="btn_savePrices">Guardar</string>
+    <string name="btn_cancel">Volver</string>
+</resources>
