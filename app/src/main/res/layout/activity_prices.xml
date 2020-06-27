@@ -94,7 +94,7 @@
         android:layout_marginTop="408dp"
         android:onClick="savePrices"
         android:text="@string/btn_savePrices"
-        android:translationX="50dp"
+        android:translationX="185dp"
         app:layout_constraintStart_toEndOf="@+id/btn_cancel"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -106,7 +106,6 @@
         android:layout_marginTop="408dp"
         android:onClick="cancel"
         android:text="@string/btn_cancel"
-        android:translationX="140dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </RelativeLayout>

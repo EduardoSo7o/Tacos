@@ -28,7 +28,6 @@
         android:text="@string/et_taco_String"
         android:textSize="18sp"
         android:translationX="290dp"
-        android:translationY="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,7 +53,7 @@
         android:text="@string/et_torta_String"
         android:textSize="18sp"
         android:translationX="290dp"
-        android:translationY="185dp"
+        android:translationY="65dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_tacoNumber" />
 
@@ -80,7 +79,7 @@
         android:text="@string/et_refresco_String"
         android:textSize="18sp"
         android:translationX="290dp"
-        android:translationY="15dp"
+        android:translationY="120dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_tortaNumber" />
 
@@ -106,7 +105,7 @@
         android:layout_marginTop="48dp"
         android:text="@string/tv_total_String"
         android:textSize="18sp"
-        android:translationX="40dp"
+        android:translationX="41dp"
         android:translationY="170dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_refresco" />
@@ -120,7 +119,7 @@
         android:text="@string/tv_totalNumber_String"
         android:textSize="18sp"
         android:translationX="290dp"
-        android:translationY="105dp"
+        android:translationY="165dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_refrescoNumber" />
 
@@ -145,7 +144,7 @@
         android:layout_marginTop="40dp"
         android:text="@string/tv_exchange_String"
         android:textSize="24sp"
-        android:translationX="20dp"
+        android:translationX="37dp"
         android:translationY="320dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_receipt" />
